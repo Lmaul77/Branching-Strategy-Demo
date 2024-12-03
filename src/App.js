@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Clock from './Clock';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React, Hello World
         </a>
+        <Clock />
       </header>
     </div>
   );
