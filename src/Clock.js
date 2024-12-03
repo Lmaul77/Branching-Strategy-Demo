@@ -13,7 +13,7 @@ const Clock = () => {
     }, []);
 
     return (
-        <div style={{ textAlign: "center", marginTop: "20px" }}>
+        <div style={{ textAlign: "center", marginTop: "20px", color: 'red' }}>
             <h1>Current Time</h1>
             <h2>
                 {currentTime.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" })}
